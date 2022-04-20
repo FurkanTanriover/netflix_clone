@@ -12,14 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Netflix UI',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-       
-        primarySwatch: Colors.blue,
-      ),
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          scaffoldBackgroundColor: Colors.black),
       home: const DashboardView(),
     );
   }
 }
-
-
