@@ -60,7 +60,8 @@ class _DashboardViewState extends State<DashboardView> {
             sliver: SliverToBoxAdapter(
               child: Previews(title: "Previews", contentList: previews),
             ),
-          )
+          ),
+          
         ],
       ),
     );
